@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Project</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#">Portfolio</a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+      <!-- Home Section -->
+      <section class="home" id="home">
+        <div class="content-msg">
+          <h1>Mahmoud Saber</h1>
+          <p>Hi, I’m Mahmoud — a passionate web developer.</p>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about" id="about">
+        <h2>About Me</h2>
+        <img src="mm.jpg" alt="" />
+        <p>An organized and experienced Junior Back-End Developer of php Laravel, seeking to join an organization to work in a  competitive environment as combine my academic background with my communication skills and communication with others.</p>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+          <li>Laravel</li>
+          <li>MySQL</li>
+        </ul>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="project">
+          <h2>My Projects</h2>
+      
+          <div class="project-card">
+            <h3>Blog System</h3>
+            <p>
+              A simple web-based content management system built using Laravel.
+            </p>
+            <a href="https://github.com/mahmoud-saber/blog-system" target="_blank">View on GitHub</a>
+          </div>
+      
+          <div class="project-card">
+            <h3>Multi-guard Auth</h3>
+            <p>
+              Laravel-based system using multiple guards for different user roles like Admin, User, Vendor, etc.
+            </p>
+            <a href="https://github.com/mahmoud-saber/multi-guard" target="_blank">View on GitHub</a>
+          </div>
+      
+          <div class="project-card">
+            <h3>School System</h3>
+            <p>
+              A PHP system supporting roles like student, teacher, driver, and parent, allowing communication and tracking.
+            </p>
+            <a href="https://github.com/mahmoud-saber/school" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" placeholder="Your Name" id="name" />
+          <input type="email" placeholder="Your Email" id="email" />
+          <textarea placeholder="Your Message" id="message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
